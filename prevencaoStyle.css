@@ -63,9 +63,9 @@
         position: relative;
         top: 170px;
         transform: translateX(50%);
-        width: 800px;
-        background-color: white;
+        width: 50%;
         height: 100%;
+        background-color: white;
     }
     
     .fonteTitulos {
