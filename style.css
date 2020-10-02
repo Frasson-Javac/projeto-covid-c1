@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 15px;
+    background-image: url(Midia/imagem/5a2ab629e37b84.0099407915127485859318.png);
+    background-repeat: no-repeat;
+}
+
+@keyframes animacao {
+    from {
+        background-color: coral;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+#BarraSupeior {
+    position: fixed;
+    top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #e8940c;
+    z-index: 1;
+    border-bottom: 5px black solid;
+}
+
+.tituloSite {
+    text-align: center;
+    margin: 20px;
+    font-size: 29pt;
+    color: white;
+    text-transform: uppercase;
+    transform: scaleX(50%);
+}
+
+#menu {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+a {
+    padding: 10px 35px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    color: black;
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.conteudoPrincipal {
+    position: relative;
+    top: 170px;
+    transform: translateX(50%);
+    width: 800px;
+    background-color: white;
+    height: 100%;
+}
+
+.fonteTitulos {
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 29px;
+    text-align: center;
+}
+
+.fonteConteudo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.postagem {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 20px;
+}
+
+.tituloPostagem {
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.imgPostagem {
+    position: relative;
+    margin-top: 20px;
+    padding-left: 250px;
+}
+
+.img {
+    width: 300px;
+}
+
+#analiseMunicipio {
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.tituloAnalise {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#analiseMunicipio {
+    font-size: 16pt;
+}
+
+.vilavelha {
+    background-color: blue;
+    position: relative;
+    left: 20px;
+    border: solid black 1px;
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 43px;
+    width: 270px;
+    height: 110px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    padding-bottom: 5px;
+    color: white;
+    animation: animacao;
+    animation-duration: 76s;
+}
+
+.vitoria {
+    background-color: black;
+    position: relative;
+    left: 20px;
+    border: solid black 1px;
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 43px;
+    width: 270px;
+    height: 110px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.cariacica {
+    background-color: green;
+    position: relative;
+    left: 20px;
+    border: solid black 1px;
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 43px;
+    width: 270px;
+    height: 110px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.serra {
+    background-color: mediumorchid;
+    position: relative;
+    left: 20px;
+    border: solid black 1px;
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 43px;
+    width: 270px;
+    height: 110px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+#rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2bd52;
+    z-index: 1;
+    height: 10px;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+
+a[class=arquivocsv] {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 50px;
+}

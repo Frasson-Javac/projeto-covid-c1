@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 15px;
+    background-image: url(Midia/imagem/5a2ab629e37b84.0099407915127485859318.png);
+    background-repeat: no-repeat;
+}
+
+#BarraSupeior {
+    /*Inicio da barra superior*/
+    position: fixed;
+    top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #e8940c;
+    z-index: 1;
+    border-bottom: 5px black solid;
+}
+
+.tituloSite {
+    text-align: center;
+    margin: 20px;
+    font-size: 29pt;
+    color: white;
+    text-transform: uppercase;
+    transform: scaleX(50%);
+}
+
+#menu {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+a {
+    padding: 10px 35px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    color: black;
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+/*fim da barra superior*/
+
+.conteudoPrincipal {
+    position: relative;
+    top: 170px;
+    transform: translateX(50%);
+    width: 800px;
+    background-color: white;
+    height: 100%;
+}
+
+.fonteTitulos {
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 29px;
+    text-align: center;
+}
+
+.fonteConteudo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 2em;
+    padding-left: 20px;
+}
+
+.postagem {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 20px;
+}
+
+.tituloPostagem {
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.formatter {
+    margin-top: 29px;
+}
+
+.icons {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+.conteudo {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2bd52;
+    z-index: 1;
+    height: 10px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
